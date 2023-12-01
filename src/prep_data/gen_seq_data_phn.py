@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 9/19/21 11:13 PM
-# @Author  : Yuan Gong
-# @Affiliation  : Massachusetts Institute of Technology
-# @Email   : yuangong@mit.edu
-# @File    : gen_seq_data_phn.py
-
 # Generate sequence phone input and label for seq2seq models from raw Kaldi GOP features.
-
 import numpy as np
 
 def load_feat(path):

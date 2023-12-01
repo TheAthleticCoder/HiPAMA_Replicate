@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 9/23/21 11:33 PM
-# @Author  : Yuan Gong
-# @Affiliation  : Massachusetts Institute of Technology
-# @Email   : yuangong@mit.edu
-# @File    : collect_summary.py
-
 # collect summery of repeated experiment.
-
 import argparse
 import os
 import numpy as np

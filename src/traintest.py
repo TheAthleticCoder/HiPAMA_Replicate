@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 9/20/21 12:02 PM
-# @Author  : Yuan Gong
-# @Affiliation  : Massachusetts Institute of Technology
-# @Email   : yuangong@mit.edu
-# @File    : traintest.py
-
 # train and test the models
 import sys
 import os

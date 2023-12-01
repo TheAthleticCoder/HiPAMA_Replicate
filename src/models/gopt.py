@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 10/22/21 1:23 PM
-# @Author  : Yuan Gong
-# @Affiliation  : Massachusetts Institute of Technology
-# @Email   : yuangong@mit.edu
-# @File    : gopt.py
-
 # attention part is borrowed from the timm package.
-
 import math
 import warnings
 import torch

@@ -8,17 +8,6 @@ This repository is the implementation of the paper, [**Hierarchical Pronunciatio
 
 An open source dataset, SpeechOcean762 (licenced with CC BY 4.0) is used. You can download it from [https://www.openslr.org/101](https://www.openslr.org/101).
 
-## Package Requirements
-
-Install below packages in your virtual environment before running the code.
-- python version 3.8.10
-- pytorch version '1.13.1+cu117'
-- numpy version 1.20.3
-- pandas version 1.5.0
-
-You can run below command on your virtual environment
-- `pip install -r requirements.txt`
-
 ## Training and Evaluation (HiPAMA)
 This bash script will run each model 5 times with ([0, 1, 2, 3, 4]).
 - `cd src`
@@ -29,10 +18,12 @@ Note that every run does not produce the same results due to the random elements
 ## Run baseline (GOPT)
 This bash script will run each model 5 times with ([0, 1, 2, 3, 4]).
 - `cd src`
-- `bash run_gopt.sh`
+- `bash my_run_gopt.sh`
+
+## Analysis Running
+The base code provided is not able to generate results successfully. You can run the code file `analysis.py` on the `exp/` folder which gives the mean, std for phonemes, utterances and words. 
 
 ## Citation
-Please cite our paper if you find this repository helpful.
 
 ```
 @INPROCEEDINGS{10095733,

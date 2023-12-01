@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 9/21/21 9:50 PM
-# @Author  : Yuan Gong
-# @Affiliation  : Massachusetts Institute of Technology
-# @Email   : yuangong@mit.edu
-# @File    : get_summary.py
-
 import os
 import numpy as np
 from matplotlib import pyplot as plt
